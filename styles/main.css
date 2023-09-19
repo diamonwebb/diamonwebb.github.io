@@ -3,7 +3,7 @@ body {
     font-size: 100%;
     margin-left: 10px;
 }
-a:focus a:hover{
+a:focus,a:hover{
     font-style: italic;
     color: #5a189a
 }
@@ -12,7 +12,7 @@ header h1 {
     color: #7b2cbf;
     text-indent: 30px;
 }
-header h1 {
+header h2 {
     font-size: 130%;
     color: #9d4edd;
     text-indent: 30px;
