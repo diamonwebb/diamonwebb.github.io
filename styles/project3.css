@@ -32,7 +32,7 @@ header img {
     float: left;
 }
 .shadow {
-    text-shadow: 2px 2px 2px rgb(128, 0, 0)
+    text-shadow: 2px 2px 2px rgb(128, 0, 0);
 }
 article {
     clear: both;
@@ -55,7 +55,7 @@ article p::first-letter {
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
-    color: lightgreen
+    color: lightgreen;
 }
 aside {
     width: 20%;
