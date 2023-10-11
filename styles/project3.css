@@ -17,6 +17,9 @@ a:focus,a:hover {
     border: 3px blue;
     border-style: dotted solid;
 }
+header {
+    border-bottom: 2px solid maroon
+}
 header h1 {
     font-size: 175%;
     color: #7b2cbf;
@@ -47,7 +50,7 @@ article h3 {
 }
 article img {
     float: left;
-    margin-left: 1em;
+    margin-right: 1em;
     margin-bottom: 1em;
 }
 article p::first-letter {
