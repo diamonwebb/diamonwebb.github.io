@@ -4,6 +4,9 @@
 #nav_menu ul li {
     float: left;
 }
+h1 {
+    clear: left
+} 
 #nav_menu ul li a {
     text-align: center;
     display: block;
