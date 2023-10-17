@@ -21,12 +21,6 @@
 #nav_menu ul li a.current {
     color: yellow;
 }
-header h1 {
-    margin-left: auto;
-}
-header h2 {
-    margin-left: auto;
-}
 aside ol {
     list-style-type: upper-roman;
 }
