@@ -34,21 +34,19 @@ body {
     font-size: 100%;
     margin: 15px auto;
     padding: 1.5em 1.5em 1.5em;
-    border: 1px solid blue;
-    border-radius: 5px 5px 0 0;
 }
 article {
-        clear: left;
-        width: 75%;
-        float: left;
-        column-count: 2;
-        column-rule: 2px dotted maroon;
-        column-gap: 2em;
-        margin-left: 2em;
+    clear: left;
+    width: 75%;
+    float: left;
+    column-count: 2;
+    column-rule: 2px dotted maroon;
+    column-gap: 2em;
+    margin-left: 2em;
 }
 aside {
     width: 20%;
     float: right;
-    background-color: #ffebc6;
+    background-color: #c6ecff;
     padding: 1em 1em 1em;
 }
