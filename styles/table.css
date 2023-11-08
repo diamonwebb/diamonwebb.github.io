@@ -37,16 +37,28 @@ html, body {
     /*-----------------------------------------------------------*/
     table.third {    
         border-collapse: collapse; 
-        border: 2px solid salmon;   
+        border-top: 2px solid salmon;   
         caption-side: top;
     }
     table.third th {
-        background-color: green;
-    }
-    table.third th, table.third td {
-        padding: 0.7em;  
-        vertical-align: middle;
-    }
-    table.third thead tr:first-child{     
+        background-color: limegreen;
         border-bottom: 2px solid salmon;
     }
+    table.third th, table.third td {
+        padding: .5em;  
+        vertical-align: top;
+        text-align: center;
+    }
+    table.third thead tr:first-child {     
+        border-bottom: 2px solid salmon;
+    }
+    /*-----------------------------------------------------------*/
+@media only screen and (max-width: 425px) {
+    th, td {
+        display: block;
+    }
+    thead, td.number {
+        display: none;
+        padding: 0;
+    }    
+}
