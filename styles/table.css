@@ -47,7 +47,6 @@ html, body {
     table.third th, table.third td {
         padding: .5em;  
         vertical-align: top;
-        text-align: center;
     }
     table.third thead tr:first-child {     
         border-bottom: 2px solid salmon;
