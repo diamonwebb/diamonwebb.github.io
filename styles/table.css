@@ -39,6 +39,7 @@ html, body {
         border-collapse: collapse; 
         border-top: 2px solid salmon;   
         caption-side: top;
+        border-bottom: 2px solid salmon;
     }
     table.third th {
         background-color: limegreen;
